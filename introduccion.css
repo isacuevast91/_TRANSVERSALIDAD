@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+section {
+    flex-grow: 1;
+    flex-basis: 200;
+    padding: 2rem 9%;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+/*header*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+header .logo {
+    text-decoration: none;
+    font-size: 3rem;
+    color: black;
+    font-weight: bolder;
+}
+header .navbar a{
+    font-size: 15px;
+    color: #666;
+    text-align: right;
+}
+
+/*PRINCIPIO*/
+
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(IMG/fjpg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content {
+    max-width: 50rem;
+}
+
+.home .content h3 {
+    font-size: 45px;
+    color: black;
+}
+
+.home .content span {
+    font-size: 25px;
+    color: rgb(160, 160, 160);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.home .content p {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+
+.heading span {
+    color: rgb(233, 128, 122);
+}
+
+
+/*about us*/
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about .row .video-container video {
+    width: 400px;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    height: 300px;
+    object-fit: cover;
+}
+
+.content {
+    width: 50%;
+}
+
+.about .row .content h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.about .row .content p {
+    font-size: 15px;
+    color: #999;
+    padding: 10px 0;
+    padding-top: 10px;
+    text-align: justify;
+}
+/*punto uno*/
+/*aprendizaje*/
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content:left;
+    width: 40%;
+
+}
+.imagen-about-us{
+    width: 48%;
+}
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+.contenido-textos h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+    margin-right: 5px;
+}
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+/*TABLA*/
+.titulo{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contenedor-tipos{
+    padding: 20px 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow:hidden; 
+
+}
+.cont-tipos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 48%;
+}
+.cont-tipos .t1{
+    width: 48%;
+    float: right;
+}
+.t1{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    float: right;
+}
+.t1 thead th{
+    background-color: #183926;
+    color: #fff;
+    text-align: center;
+}
+.t1 th,
+.t1 td{
+    padding: 12px 15px;
+}
+.t1 tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+/*LISTAAA*/
+.list-tipos{
+    width: 250px;
+}
+ul{
+    list-style-position: inside;
+}
+li{
+    font-weight: 300;
+}
+.list-tipos h3{
+    text-align: left;
+    color: #183926;
+    font-size: 0.9em;
+}
+
+/*tabla final*/
+.cont-tipos2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    
+}
+.cont-tipos2 .t2{
+    width: 70%;
+    align-items: center;
+}
+.t2{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    align-items: center;
+}
+.t2 thead th{
+    background-color: #183926;
+    color: #fff;
+    text-align: center;
+}
+.t2 th,
+.t2 td{
+    padding: 12px 15px;
+}
+.t1 tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+footer {
+    background: #414141;
+    padding: 60px 0;
+    width: 100%;
+    overflow: hidden; 
+}
+
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}

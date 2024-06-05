@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+header .logo {
+    text-decoration: none;
+    font-size: 3rem;
+    color: black;
+    font-weight: bolder;
+}
+header .navbar a{
+    font-size: 15px;
+    color: #666;
+    text-align: right;
+}
+
+
+
+
+p {
+    color:darkgreen;
+}
+li{
+    color: darkseagreen;
+}
+button{
+    background-color: darkgreen;
+}
+.btn btn-primary{
+    background-color: darkgreen;
+
+}
